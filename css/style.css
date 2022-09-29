@@ -806,7 +806,7 @@ fieldset {
     gap: 20px;
   }
   .header-top__inner {
-    padding: 25px 0;
+    padding: 10px 0;
   }
   .menu-search-cart {
     width: 100%;
@@ -818,6 +818,9 @@ fieldset {
     width: 100%;
   }
   .cart-total__content {
+    display: none;
+  }
+  .header-bottom {
     display: none;
   }
   .icon-menu {

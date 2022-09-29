@@ -137,7 +137,7 @@
   }
   .header-top {
     &__inner {
-      padding: 25px 0;
+      padding: 10px 0;
     }
   }
   .menu-search-cart {
@@ -153,6 +153,9 @@
     &__content {
       display: none;
     }
+  }
+  .header-bottom {
+    display: none;
   }
 // burger---------------------------------------//
 .icon-menu {
