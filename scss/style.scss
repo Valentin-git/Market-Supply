@@ -1,0 +1,97 @@
+@use 'sass:math';
+@import 'common/fonts';
+@import 'common/icons';
+@import 'common/reset';
+@import 'common/variable';
+@import 'common/mixins';
+
+body {
+  font-size: rem(15);
+  color: $textColor;
+  font-family: $fontFamily;
+}
+h1, h2, h3, h4, h5, h6 {
+  color: $titleColor;
+}
+button {
+  border: 0;
+  background: 0;
+  cursor: pointer;
+}
+fieldset {
+  border: 0;
+}
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column; // прижать футер
+}
+.page {
+  flex: 1 1 auto;
+  background-color: rgb(243, 243, 243);
+}
+[class*="container"] {
+  max-width: $maxWidthContainer; 
+  margin: 0 auto;
+  padding: 0 $containerPadding;
+}
+@media (max-width: 1199.98px) {
+  [class*="container"] {
+    max-width: 970px;
+  }
+}
+@media (max-width: $tablet) {
+  [class*="container"] {
+    max-width: 750px;
+  }
+}
+@media (max-width: $mobile) {
+  [class*="container"] {
+    max-width: none;
+  }
+}
+// .container-fluid {
+//   max-width: 1841px;
+// }
+.title {
+  font-size: 22px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.arrow {
+  display: flex;
+  gap: 5px;
+}
+// .text {
+//   padding-top: 40px;
+//   padding-bottom: 65px;
+//   font-size: 17px;
+//   font-weight: 400;
+// }
+// .btn {
+//   display: flex;
+//   .link {
+//     background: $accentColor;
+//     color: $whiteColor;
+//     padding: 12px 22px;
+
+//     font-size: 17px;
+//     font-weight: 400;
+//   }
+// }
+// .com-btn {
+  
+// }
+
+
+
+
+@import 'site-parts/header';
+@import 'site-parts/slider';
+@import 'site-parts/products';
+@import 'site-parts/banners';
+
+
+@import 'site-parts/footer';
+@import 'site-parts/media';

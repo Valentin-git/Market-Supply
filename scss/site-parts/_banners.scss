@@ -1,0 +1,69 @@
+.banner {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  &__item {
+  }
+}
+.beatifull {
+  padding: 37px 17px;
+  margin-bottom: 30px;
+  background: $whiteColor;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  &__picture {
+    width: calc(100% / 2);
+    img {
+      width: 100%;
+    }
+
+  }
+  &__content {
+    width: calc(100% / 2);
+  }
+  &__title {
+  }
+  span {
+    color: #0f8ce9;
+  }
+  &__btn {
+    display: flex;
+    margin-top: 17px;
+  }
+  &__link {
+
+  }
+}
+.btn {
+  color: $whiteColor;
+  background-color: $accentColor;
+  padding: 11.3px 21px;
+
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 20px;
+  text-transform: uppercase;
+}
+.newsletters {
+  background-color: $whiteColor;
+  padding: 25px;
+  margin-bottom: 40px;
+  &__title {
+    padding-bottom: 12px;
+    margin-bottom: 22px;
+    border-bottom: 1px solid #eaeaea;
+  }
+  &__text {
+    font-weight: 400;
+  }
+}
+.newsletters-form {
+  &__intput {
+    width: 100%;
+    height: 43px;
+    margin: 25px 0;
+    background-color: #f3f3f3;
+    border: 0;
+  }
+}
