@@ -214,6 +214,11 @@ fieldset {
   border-right: 1px solid white;
   font-size: 12px;
   font-weight: 400;
+  transition: color .3s;
+}
+
+.menu-top__link:hover {
+  color: #f10e34;
 }
 
 .search-cart {
@@ -305,6 +310,11 @@ fieldset {
   align-items: center;
   gap: 20px;
   border-bottom: 1px solid #eaeaea;
+  transition: color .3s;
+}
+
+.categories-menu__link:hover {
+  color: #f10e34;
 }
 
 .categories-menu ._icon-arrow::before {
@@ -329,6 +339,11 @@ fieldset {
 .menu__link {
   color: white;
   text-transform: uppercase;
+  transition: color .3s;
+}
+
+.menu__link:hover {
+  color: #222222;
 }
 
 .categories-slider {
@@ -579,6 +594,11 @@ fieldset {
   font-weight: 700;
   border-radius: 20px;
   text-transform: uppercase;
+  transition: background-color .3s;
+}
+
+.btn:hover {
+  background-color: #c01a36;
 }
 
 .newsletters {
@@ -601,6 +621,7 @@ fieldset {
   width: 100%;
   height: 43px;
   margin: 25px 0;
+  padding: 0 15px;
   background-color: #f3f3f3;
   border: 0;
 }
@@ -664,6 +685,11 @@ fieldset {
 .inform-menu__link {
   color: #b6b6b6;
   font-size: 14px;
+  transition: color .3s;
+}
+
+.inform-menu__link:hover {
+  color: #f10e34;
 }
 
 .social-menu {
@@ -677,6 +703,11 @@ fieldset {
   align-items: center;
   color: #b6b6b6;
   font-size: 14px;
+  transition: color .3s;
+}
+
+.social-menu__link:hover {
+  color: #f10e34;
 }
 
 .social-menu ._icon-google::before {

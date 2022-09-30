@@ -36,8 +36,15 @@
     //   margin-right: 0;
     //   border-right: 0;
     // }
+    transition: color .3s;
+    &:hover {
+      color: $accentColor;
+    }
   }
 }
+// .menu-top__link:last-child {
+//   border: 0;
+// }
 .search-cart {
   display: flex;
   gap: 40px;
@@ -120,12 +127,16 @@
     align-items: center;
     gap: 20px;
     border-bottom: 1px solid #eaeaea;
+    transition: color .3s;
     // &:last-child {
     //   border-bottom: 0;
     // }
     // &:nth-child(8) {
     //   border: 0;
     // }
+    &:hover {
+      color: $accentColor;
+    }
   }
   ._icon-arrow::before {
     color: rgb(166, 166, 166);
@@ -150,6 +161,10 @@
   &__link {
     color: $whiteColor;
     text-transform: uppercase;
+    transition: color .3s;
+    &:hover {
+      color: $menuColor;
+    }
   }
 }
 
